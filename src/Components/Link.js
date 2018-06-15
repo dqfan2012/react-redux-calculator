@@ -9,6 +9,10 @@ const STATUS = {
   NORMAL: 'normal',
 };
 
+type State = {
+  class: string,
+};
+
 export default class Link extends React.Component {
   constructor(props) {
     super(props);

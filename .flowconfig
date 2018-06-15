@@ -1,5 +1,7 @@
 [ignore]
 .*node_modules.*
+.*Link.js
+.*Link.spec.js
 
 [include]
 

@@ -1,9 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM, { render } from 'react-dom';
 
-const title = "Testing";
+import './Components/App.css';
+import App from './Components/App';
 
-ReactDOM.render(
-  <div>{title}</div>,
-  document.getElementById('app')
-);
+var appElement = document.getElementById('app');
+
+if (appElement) render(<App />, appElement);  
+
+
+

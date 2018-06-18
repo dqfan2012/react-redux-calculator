@@ -1,6 +1,4 @@
-/**
- * Taken from the Jest react tutorial
- */
+/* @flow */
 
 import React from 'react';
 

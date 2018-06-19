@@ -2,7 +2,6 @@
  * Redux example - Testing Redux
  */
 
-
 import { addExpense, removeExpense } from '../../src/actions/expense';
 import expenses, { initialState } from '../../src/reducers/expense';
 
